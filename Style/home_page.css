@@ -1,0 +1,164 @@
+
+
+body{
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+.userdetail{
+        width: 100%;
+        padding: 5px;
+        border: 5px solid gray;
+        margin: 0;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: goldenrod;}
+
+/* Search Box  */
+  * {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    
+  }
+  
+  #myUL {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    padding: 20px; 
+    width: 60%;
+    height: 100%;
+  }
+  
+  #myUL li a {
+    border: 1px solid goldenrod;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: gray;
+    padding: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+
+  .collapsible {
+    background-color:lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: 5px solid silver;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  #userdetail_btn {
+    background-color: lightseagreen; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 90%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+
+  .btn-group button {
+    background-color: #4CAF50; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: right; 
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+
+
+  /* Split the screen in half */
+.split {
+    height: 100%;
+    width: 100%;
+    top: 20;
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: lightseagreen;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: lightslategray;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  

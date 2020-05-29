@@ -1,0 +1,47 @@
+input[type=text] {
+    width: 40;
+    padding: 12px 52px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  #birthday{
+    width: 40;
+    padding: 11px 50px 11px 90px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  body{
+    background-image: url(css/node.jpg);
+    margin: auto;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(45, 118, 201);
+    text-align: center;
+}
+
+.button {
+    background-color: lightseagreen; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  
